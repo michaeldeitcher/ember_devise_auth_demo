@@ -12,13 +12,7 @@ MyLoginControllerMixin = Ember.Mixin.create(LoginControllerMixin, {
         // empty function to eat the exception
       });
       return false;
-    },
-    sessionAuthenticationFailed: function(){
-      alert('failed to log in. check your credentials');
-    },
-    sessionAuthenticationSucceeded: function(){
-      alert('thanks for logging in!');
-    }    
+    }
   }
 });
 
