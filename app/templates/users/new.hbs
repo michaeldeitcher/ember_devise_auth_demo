@@ -1,0 +1,20 @@
+<h2>Join</h2>
+<form {{action 'submit' on='submit'}}>
+
+  <label>Email
+    {{input type="text" id="email" placeholder="email" value=email}}
+  </label>
+  {{#each error in errors.email}}
+      <small class="error">{{error.message}}</small>
+  {{/each}}
+
+  <label>Password
+    {{input type="password" id="password" placeholder="password" value=password}}
+  </label>
+  {{#each error in errors.password}}
+      <small class="error">{{error.message}}</small>
+  {{/each}}
+
+  <button>Submit</submit>
+
+</form>

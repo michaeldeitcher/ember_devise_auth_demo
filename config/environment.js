@@ -19,6 +19,15 @@ module.exports = function(environment) {
     }
   };
 
+  ENV['simple-auth'] = {
+    authorizer: 'simple-auth-authorizer:devise'
+  };
+  // Send attribute as email, not user_email
+  // https://github.com/simplabs/ember-simple-auth/issues/441
+  ENV['simple-auth-devise'] = {
+    identificationAttributeName: 'email'
+  };
+
   if (environment === 'development') {
     // ENV.APP.LOG_RESOLVER = true;
     // ENV.APP.LOG_ACTIVE_GENERATION = true;
