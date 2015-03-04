@@ -1,7 +1,9 @@
 # Ember-devise-auth-demo
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Ember.js demonstration of user registration and session management between Ember.js and Rails. 
+Thanks to [Simple Labs](http://simplabs.com/) for the [Ember Simple Auth](https://github.com/simplabs/ember-simple-auth) library with Devise support for authentication, authorization, and session management. 
+
+This project is written to work with [Devise Ember Auth Demo](https://github.com/michaeldeitcher/devise_ember_auth_demo). Please clone and run this project locally to test. I hope to host a test server soon so you don't have to do this.
 
 ## Prerequisites
 
@@ -15,14 +17,14 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* change into the new directory
+* `git clone git@github.com:michaeldeitcher/ember_devise_auth_demo.git` this repository
+* `cd ember_devise_auth_demo`
 * `npm install`
 * `bower install`
 
 ## Running / Development
-
-* `ember server`
+* Install and run Rails server on port 3000: [Devise Ember Auth Demo](https://github.com/michaeldeitcher/devise_ember_auth_demo)
+* `ember server --proxy http://localhost:3000`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 
 ### Code Generators
