@@ -8,12 +8,25 @@ This project is written to work with [Devise Ember Auth Demo](https://github.com
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
-
-* [Git](http://git-scm.com/)
 * [Node.js](http://nodejs.org/) (with NPM)
 * [Bower](http://bower.io/)
 * [Ember CLI](http://www.ember-cli.com/)
 * [PhantomJS](http://phantomjs.org/)
+
+How to Install Prerequisites on a Macintosh Computer
+* Install XCode. It is available at the [Apple Mac Store](https://itunes.apple.com/us/app/xcode/id497799835?mt=12)
+* Install Homebrew - The missing package manager for OS X
+ 
+`ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)`
+* Install Node.js and the Nodel Package Manager
+
+`brew install node`
+* Install Bower - The package manager used to manage build dependencies.
+
+`npm install -g bower`
+* Install the Ember Command Line Interface
+
+`npm install -g ember-cli`
 
 ## Installation
 
@@ -56,4 +69,6 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+* [Why install using Homebrew](http://blog.teamtreehouse.com/install-node-js-npm-mac)
+* [Ember Simple Auth](http://ember-simple-auth.com/)
 
