@@ -22,7 +22,11 @@ You will need the following things properly installed on your computer.
 * `npm install`
 * `bower install`
 
-## Running / Development
+## Running / Development without local Rails server
+* `ember s --proxy http://devise-ember-auth-demo.herokuapp.com` 
+* Visit your app at [http://localhost:4200](http://localhost:4200).
+
+## Running / Development with local Rails server
 * Install and run Rails server on port 3000: [Devise Ember Auth Demo](https://github.com/michaeldeitcher/devise_ember_auth_demo)
 * `ember server --proxy http://localhost:3000`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
